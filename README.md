@@ -2,9 +2,9 @@
 
 team mundus
 
-# Product Details 
 
 ## Team Members 
+
 - Ümit Berke Birdal: Scrum Master
 - Zehra Aktürk: Product Owner
 - Ümmügülsüm Köktaş: Developer
@@ -20,7 +20,7 @@ team mundus
 
 https://umit-berke-birdal.atlassian.net/jira/core/projects/BT31/board
 
-## Ürün Açıklaması
+## Product Explanation
 
 LinguAI is a language learning app designed to help people learn in natural environments and authentic materials! 
 It provides an alive dictionary reinforced with AI, letting you scan whatever item in front of you and get immediate results in any language you desire
@@ -28,8 +28,6 @@ It provides an alive dictionary reinforced with AI, letting you scan whatever it
 Community is everything when you are trying to learn any language because languages are alive just like us. Since we mostly learn more when we give the wrong answers, it is vital to have friends to practice and have fun with!
  
 It also allows you to keep track of what you have learned so far and helps you gain better understanding by creating language games based on your content. This way you can truly practice and also learn more with others. Challanging! 
-
-
 
 
 
@@ -61,10 +59,10 @@ It also allows you to keep track of what you have learned so far and helps you g
 
 # Sprint 1
 
-- **Sprint içinde tamamlanması tahmin edilen puan**: 100 Puan
+- **Estimated points to be assigned**: 100 Points
 
 
-- **Puan tamamlama mantığı**: Toplamda proje boyunca tamamlanması gereken 340 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
+- **Puan tamamlama mantığıPoint Reasoning**: Toplamda proje boyunca tamamlanması gereken 340 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
 
 
 - **Daily Scrum**:
@@ -72,24 +70,28 @@ It also allows you to keep track of what you have learned so far and helps you g
 
 - 
 
-- **Sprint board update**: Sprint board screenshotları: 
+- **Sprint board update**: Sprint board screenshots: 
 ![Backlog 1](https://raw.githubusercontent.com/OyunveUygulamaAkademisi/Bootcamp2022Example/main/ProjectManagement/Sprint1Documents/backlog1.png) 
 
 
-- **Ürün Durumu**: Ekran görüntüleri:
+- **Product Situation**: Ekran görüntüleri:
   ![Screenshot 1](https://github.com/OyunveUygulamaAkademisi/Bootcamp2022Example/blob/main/ProjectManagement/Sprint1Documents/product1.png)
   ![Screenshot 2](https://github.com/OyunveUygulamaAkademisi/Bootcamp2022Example/blob/main/ProjectManagement/Sprint1Documents/product2.png)
   ![Screenshot 3](https://github.com/OyunveUygulamaAkademisi/Bootcamp2022Example/blob/main/ProjectManagement/Sprint1Documents/product4.gif)
+
 - **Sprint Review**: 
-Alınan kararlar: Kullanıcı temel sayfaları oluşturulmuş, bazıları kodlanmış, arduino kurulumu ve firebase'e bağlanması sağlanmış, uygulama için veritabanı olarak firebase servisleri aktif edilmiş ve eksiklikler değerlendirilmiştir. Sprint Review katılımcıları: Mustafa Aksoy
+
+We have lost much time trying to set a convinient time for everyone. So we decided that we should work on broader tasks and share them evenly, assigning everyone to tasks they are more prone to or ready to deal with. We figured we should have 3 different main tasks to lead the way and the rest can be assigned depending on the current situation.
+
+These were app design, Firebase and AI. We created the Firebase database design, tried out different pre trained AI models for our cause and redesigned the template to serve our needs simultaneously. We updated the tasks we have on Jira board when we made progress, keeping it alive with screenshots and images. 
+
+
 
 - **Sprint Retrospective:**
-  - Roller ile ilgili düzenleme yapılmış, scrum master değişmiştir.
-  - Takım içindeki görev dağılımıyla ilgili düzenleme yapılması kararı alınmıştır.
-  - Takım üyelerinin gelecek sprintlerde aktif olması gerektiğine vurgu yapılmıştır.
+  - We have decided that we should be working in duos and constantly share our progress with each other.
+  - Daily meetings are decided to be held at night.
+  - Personal task sharing is encouraged.
  
-
-
 ---
 
 ## Product Backlog URL
