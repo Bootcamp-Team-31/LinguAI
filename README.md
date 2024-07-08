@@ -90,7 +90,8 @@ It also allows you to keep track of what you have learned so far and helps you g
 
 
 
-- **Product Situation**:
+
+-   **Product Situation**:
 
   
   
@@ -112,8 +113,11 @@ These were app design, Firebase and AI. We created the Firebase database design,
 ## Product Backlog URL
 
 Flutter Team 31 
+
 team mundus 
+
 LinguAI Jira board 
+
 https://umit-berke-birdal.atlassian.net/jira/core/projects/BT31/board
 
 ---
