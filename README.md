@@ -98,6 +98,17 @@ It also allows you to keep track of what you have learned so far and helps you g
 
 -   **Product Situation**:
 
+
+
+![rediscover (1)](https://github.com/Bootcamp-Team-31/LinguAI/assets/173477165/a73d4739-d67d-4212-bc5e-dcb8e8e84252)
+
+![rediscover (4)](https://github.com/Bootcamp-Team-31/LinguAI/assets/173477165/6ef84bf1-0fe0-4cd3-b25b-c6d1e66dca90)
+
+![rediscover (3)](https://github.com/Bootcamp-Team-31/LinguAI/assets/173477165/6d6a91f5-b366-4cb8-bd6a-8e25475b779d)
+
+![rediscover (2)](https://github.com/Bootcamp-Team-31/LinguAI/assets/173477165/f3564c74-58de-42ba-af05-f7890684a75e)
+
+
   
   
 - **Sprint Review**: 
