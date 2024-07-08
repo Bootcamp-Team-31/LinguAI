@@ -74,9 +74,11 @@ It also allows you to keep track of what you have learned so far and helps you g
 - **Sprint board update**: Sprint board screenshots: 
 
 
-<img width="841" alt="onboardingpageimage" src="https://github.com/Bootcamp-Team-31/LinguAI/assets/173477165/23f656fb-da9d-4244-b442-f2e49840f277">
+<img width="841" alt="onboardingpageimage" src="https://github.com/Bootcamp-Team-31/LinguAI/assets/173477165/23f656fb-da9d-4244-b442-f2e49840f277"> 
 
-<img width="478" alt="firebasescheme" src="https://github.com/Bootcamp-Team-31/LinguAI/assets/173477165/49308641-4293-40f9-83e0-cc8bb7b99abd">
+![Uploading BOOTCAMP-jira- Sprint1.png…]()
+
+
 
 
 - **Product Situation**:
