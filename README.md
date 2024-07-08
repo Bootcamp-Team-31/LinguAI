@@ -78,7 +78,7 @@ It also allows you to keep track of what you have learned so far and helps you g
 
 
 
-  **Sprint board update**: Sprint board screenshots: 
+**Sprint board update** 
 
 
 
