@@ -55,30 +55,34 @@ It also allows you to keep track of what you have learned so far and helps you g
 - Language learners
   
 
-
-
 # Sprint 1
 
-- **Estimated points to be assigned**: 100 Points
+- **Estimated points to be assigned**:
+- 100 Points
 
 
-- **Puan tamamlama mantığıPoint Reasoning**: Toplamda proje boyunca tamamlanması gereken 340 puanlık backlog bulunmaktadır. 3 sprint'e bölündüğünde ilk sprint'in en azından 100 ile başlaması gerektiğine karar verildi.
-
+- **Point Reasoning**:
+- We decided that the first sprint should hold 100 points worth of tasks.
+  
 
 - **Daily Scrum**:
 - Daily Scrum meetings are held at night on Discord due to time restrictions of the team. We have saved and collected meeting notes and also created different channels for idea sharing and off topic questions.
 
-- 
+- <img width="530" alt="meeting notes" src="https://github.com/Bootcamp-Team-31/LinguAI/assets/173477165/ff167159-f3f8-4c7e-91a0-bb9d9bc3889d">
+
 
 - **Sprint board update**: Sprint board screenshots: 
-![Backlog 1](https://raw.githubusercontent.com/OyunveUygulamaAkademisi/Bootcamp2022Example/main/ProjectManagement/Sprint1Documents/backlog1.png) 
 
 
-- **Product Situation**: Ekran görüntüleri:
-  ![Screenshot 1](https://github.com/OyunveUygulamaAkademisi/Bootcamp2022Example/blob/main/ProjectManagement/Sprint1Documents/product1.png)
-  ![Screenshot 2](https://github.com/OyunveUygulamaAkademisi/Bootcamp2022Example/blob/main/ProjectManagement/Sprint1Documents/product2.png)
-  ![Screenshot 3](https://github.com/OyunveUygulamaAkademisi/Bootcamp2022Example/blob/main/ProjectManagement/Sprint1Documents/product4.gif)
+<img width="841" alt="onboardingpageimage" src="https://github.com/Bootcamp-Team-31/LinguAI/assets/173477165/23f656fb-da9d-4244-b442-f2e49840f277">
 
+<img width="478" alt="firebasescheme" src="https://github.com/Bootcamp-Team-31/LinguAI/assets/173477165/49308641-4293-40f9-83e0-cc8bb7b99abd">
+
+
+- **Product Situation**:
+
+- 
+  
 - **Sprint Review**: 
 
 We have lost much time trying to set a convinient time for everyone. So we decided that we should work on broader tasks and share them evenly, assigning everyone to tasks they are more prone to or ready to deal with. We figured we should have 3 different main tasks to lead the way and the rest can be assigned depending on the current situation.
