@@ -68,10 +68,13 @@ It also allows you to keep track of what you have learned so far and helps you g
 - **Daily Scrum**:
 - Daily Scrum meetings are held at night on Discord due to time restrictions of the team. We have saved and collected meeting notes and also created different channels for idea sharing and off topic questions.
 
+
 - <img width="530" alt="meeting notes" src="https://github.com/Bootcamp-Team-31/LinguAI/assets/173477165/ff167159-f3f8-4c7e-91a0-bb9d9bc3889d">
 
 
 - **Sprint board update**: Sprint board screenshots: 
+
+
 
 
 <img width="841" alt="onboardingpageimage" src="https://github.com/Bootcamp-Team-31/LinguAI/assets/173477165/23f656fb-da9d-4244-b442-f2e49840f277"> 
@@ -82,9 +85,11 @@ It also allows you to keep track of what you have learned so far and helps you g
 ![BOOTCAMP-jira- Sprint1](https://github.com/Bootcamp-Team-31/LinguAI/assets/173477165/96d38e14-510f-45e4-9b84-f8156b7621a4)
 
 
+
+
 - **Product Situation**:
 
-- 
+  
   
 - **Sprint Review**: 
 
@@ -97,7 +102,7 @@ These were app design, Firebase and AI. We created the Firebase database design,
 - **Sprint Retrospective:**
   - We have decided that we should be working in duos and constantly share our progress with each other.
   - Daily meetings are decided to be held at night.
-  - Personal task sharing is encouraged.
+  - Personal task sharing is encouraged if the member sees fit.
  
 ---
 
