@@ -76,9 +76,10 @@ It also allows you to keep track of what you have learned so far and helps you g
 
 <img width="841" alt="onboardingpageimage" src="https://github.com/Bootcamp-Team-31/LinguAI/assets/173477165/23f656fb-da9d-4244-b442-f2e49840f277"> 
 
-![Uploading BOOTCAMP-jira- Sprint1.png…]()
 
 
+
+![BOOTCAMP-jira- Sprint1](https://github.com/Bootcamp-Team-31/LinguAI/assets/173477165/96d38e14-510f-45e4-9b84-f8156b7621a4)
 
 
 - **Product Situation**:
