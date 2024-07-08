@@ -72,7 +72,10 @@ It also allows you to keep track of what you have learned so far and helps you g
 - <img width="530" alt="meeting notes" src="https://github.com/Bootcamp-Team-31/LinguAI/assets/173477165/ff167159-f3f8-4c7e-91a0-bb9d9bc3889d">
 
 
-- **Sprint board update**: Sprint board screenshots: 
+
+-   **Sprint board update**: Sprint board screenshots: 
+
+
 
 
 
