@@ -89,16 +89,6 @@ It also allows you to keep track of what you have learned so far and helps you g
 
 
 
-![rediscover (2)](https://github.com/Bootcamp-Team-31/LinguAI/assets/173477165/a0471095-e38f-4c51-9fde-08cead652e3b)
-
-
-
-![rediscover (3)](https://github.com/Bootcamp-Team-31/LinguAI/assets/173477165/cbd8c3fc-679c-4a06-a0dd-f15111468f91)
-
-
-![rediscover (4)](https://github.com/Bootcamp-Team-31/LinguAI/assets/173477165/397ce114-7439-4eb0-8c76-089cd3755bcc)
-
-
 
 -   **Product Situation**:
 
