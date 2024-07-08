@@ -34,7 +34,8 @@ It also allows you to keep track of what you have learned so far and helps you g
 - **Main Function** 
 
 - The major feature of our app is the live dictionary using AI. We believe it could help a lot in language learning since it will be used in the most natural and authentic way possible. No one would look for the meanings of some words on their own just to learn them or read dictionaries like people used to! Thanks to ever evolving technology, now you get to have fun with it as well!
-- ** 
+
+ 
 
 - **Secondary Function**
 
@@ -52,9 +53,8 @@ It also allows you to keep track of what you have learned so far and helps you g
 
 - Students
 - Language learners
-- 
+  
 
-## Note to Jury
 
 
 # Sprint 1
