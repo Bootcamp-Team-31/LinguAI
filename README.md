@@ -76,36 +76,26 @@ It also allows you to keep track of what you have learned so far and helps you g
 
 
 
+<br>
+
+<h1>Sprint board update
+<br>
 
 
-**Sprint board update** 
-
-
-
-
-
-
-<img width="841" alt="onboardingpageimage" src="https://github.com/Bootcamp-Team-31/LinguAI/assets/173477165/23f656fb-da9d-4244-b442-f2e49840f277"> 
+<br><img width="841" alt="onboardingpageimage" src="https://github.com/Bootcamp-Team-31/LinguAI/assets/173477165/23f656fb-da9d-4244-b442-f2e49840f277"> 
 
 
 
 
--   **Product Situation**:
+<h1>Product Situation</h1>:
 
 
-
-![rediscover (1)](https://github.com/Bootcamp-Team-31/LinguAI/assets/173477165/a73d4739-d67d-4212-bc5e-dcb8e8e84252)
-
-![rediscover (4)](https://github.com/Bootcamp-Team-31/LinguAI/assets/173477165/6ef84bf1-0fe0-4cd3-b25b-c6d1e66dca90)
-
-![rediscover (3)](https://github.com/Bootcamp-Team-31/LinguAI/assets/173477165/6d6a91f5-b366-4cb8-bd6a-8e25475b779d)
-
-![rediscover (2)](https://github.com/Bootcamp-Team-31/LinguAI/assets/173477165/f3564c74-58de-42ba-af05-f7890684a75e)
+![Ekran Görüntüsü (438)](https://github.com/Bootcamp-Team-31/LinguAI/assets/90452488/6388830e-76a6-4c05-a835-7e5186ddb357)![Ekran Görüntüsü (439)](https://github.com/Bootcamp-Team-31/LinguAI/assets/90452488/b6a6adfc-4c85-4213-985e-ae848386ae7e)
+![Ekran Görüntüsü (444)](https://github.com/Bootcamp-Team-31/LinguAI/assets/90452488/4df2b112-058e-4566-a340-d37907082e0e)![Ekran Görüntüsü (445)](https://github.com/Bootcamp-Team-31/LinguAI/assets/90452488/046a57bf-0d5a-4250-b207-6987c6ad07be)
 
 
   
-  
-- **Sprint Review**: 
+ <h1>Sprint Review:</h1>
 
 We have lost much time trying to set a convinient time for everyone. So we decided that we should work on broader tasks and share them evenly, assigning everyone to tasks they are more prone to or ready to deal with. We figured we should have 3 different main tasks to lead the way and the rest can be assigned depending on the current situation.
 
@@ -113,7 +103,7 @@ These were app design, Firebase and AI. We created the Firebase database design,
 
 
 
-- **Sprint Retrospective:**
+<h2>Sprint Retrospective:
   - We have decided that we should be working in duos and constantly share our progress with each other.
   - Daily meetings are decided to be held at night.
   - Personal task sharing is encouraged if the member sees fit.
