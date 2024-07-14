@@ -28,29 +28,22 @@ class AppBottomNavigationBar extends StatelessWidget {
             isActive: currentIndex == 0,
             onTap: () => onNavTap(0),
           ),
-          /*BottomAppBarItem(
-            name: 'Menu',
-            iconLocation: AppIcons.menu,
-            isActive: currentIndex == 1,
-            onTap: () => onNavTap(1),
-          ),
-          const Padding(
+          /* const Padding(
             padding: EdgeInsets.all(AppDefaults.padding * 2),
             child: SizedBox(width: AppDefaults.margin),
-          ),*/
-          /* <---- We have to leave this 3rd index (2) for the cart item -----> */
-
+          ), */
+          /* <---- We have to leave this 2nd index (1) for the cart item -----> */
           BottomAppBarItem(
             name: 'Save',
             iconLocation: AppIcons.save,
-            isActive: currentIndex == 3,
-            onTap: () => onNavTap(3),
+            isActive: currentIndex == 1,
+            onTap: () => onNavTap(1),
           ),
           BottomAppBarItem(
             name: 'Profile',
             iconLocation: AppIcons.profile,
-            isActive: currentIndex == 4,
-            onTap: () => onNavTap(4),
+            isActive: currentIndex == 3,
+            onTap: () => onNavTap(3),
           ),
         ],
       ),

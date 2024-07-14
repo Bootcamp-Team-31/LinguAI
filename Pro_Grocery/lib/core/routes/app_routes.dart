@@ -18,6 +18,7 @@ class AppRoutes {
   static const home = '/home';
   static const newItems = '/newItems';
   static const popularItems = '/popularItems';
+  static const community  ='/community';
   static const bundleProduct = '/bundleProduct';
   static const createMyPack = '/createMyPack';
   static const bundleDetailsPage = '/bundleDetailsPage';

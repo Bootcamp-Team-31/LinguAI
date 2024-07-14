@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:grocery/core/constants/app_icons.dart';
 
+import '../../core/constants/app_colors.dart';
 import '../../core/constants/app_defaults.dart';
 import '../../core/routes/app_routes.dart';
 import 'components/ad_space.dart';
@@ -25,16 +26,29 @@ class HomePage extends StatelessWidget {
                     Navigator.pushNamed(context, AppRoutes.drawerPage);
                   },
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: const Color(0xFFF2F6F3),
+                    backgroundColor: const Color(0xF1AB96F3),
                     shape: const CircleBorder(),
                   ),
                   child: SvgPicture.asset(AppIcons.sidebarIcon),
                 ),
               ),
               floating: true,
-              title: SvgPicture.asset(
-                "assets/images/app_logo.svg",
-                height: 32,
+              title: Row(
+                children: [
+                  Image.asset(
+                    "assets/images/logo.png",
+                    height: 60,
+                  ),
+                  SizedBox(width: 10), // Logo ve metin arasındaki boşluk
+                  Text(
+                    "LinguAI",
+                    style: TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.bold,
+                      color: AppColors.primary,
+                    ),
+                  ),
+                ],
               ),
               actions: [
                 Padding(

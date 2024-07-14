@@ -37,7 +37,7 @@ class IntroPageBodyArea extends StatelessWidget {
                     Text(
                       'LinguAI',
                       style: Theme.of(context).textTheme.headlineMedium?.copyWith(
-                          fontWeight: FontWeight.w700, color: AppColors.primary),
+                          fontWeight: FontWeight.w700, color: Colors.black),
                     ),
                   ],
                 ),

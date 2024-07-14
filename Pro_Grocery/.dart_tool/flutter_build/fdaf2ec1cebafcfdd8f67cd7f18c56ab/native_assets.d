@@ -1,0 +1,1 @@
+ C:\\Users\\zehra\\Desktop\\Zehraaa\\GithubRepo\\LinguAI\\Pro_Grocery\\.dart_tool\\flutter_build\\fdaf2ec1cebafcfdd8f67cd7f18c56ab\\native_assets.yaml: 

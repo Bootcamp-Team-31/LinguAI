@@ -14,9 +14,9 @@ class LoginPageHeader extends StatelessWidget {
       children: [
         SizedBox(
           width: MediaQuery.of(context).size.width * 0.3,
-          child: const AspectRatio(
+          child:  AspectRatio(
             aspectRatio: 1 / 1,
-            child: NetworkImageWithLoader(AppImages.roundedLogo),
+            child: Image.asset('assets/images/logo.png'),
           ),
         ),
         Text(
@@ -27,7 +27,7 @@ class LoginPageHeader extends StatelessWidget {
               ?.copyWith(fontWeight: FontWeight.bold),
         ),
         Text(
-          'E-Grocery',
+          'LinguAI',
           style: Theme.of(context).textTheme.titleLarge?.copyWith(
                 fontWeight: FontWeight.bold,
                 color: AppColors.primary,

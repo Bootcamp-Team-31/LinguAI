@@ -10,7 +10,7 @@ class LoginOrSignUpPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       body: Column(
         children: [
           Spacer(flex: 2),
@@ -39,19 +39,16 @@ class _Footer extends StatelessWidget {
             padding: const EdgeInsets.all(AppDefaults.padding),
             child: ElevatedButton(
               onPressed: () => Navigator.pushNamed(context, AppRoutes.login),
-              child: const Text('Login With Email'),
+              child: Text('Login With Email'),
             ),
           ),
         ),
-        const SizedBox(height: AppDefaults.margin),
+        SizedBox(height: AppDefaults.margin),
         Text(
           'OR',
-          style: Theme.of(context)
-              .textTheme
-              .titleLarge
-              ?.copyWith(fontWeight: FontWeight.bold),
+          style: TextStyle(fontWeight: FontWeight.bold),
         ),
-        const SizedBox(height: AppDefaults.margin),
+        SizedBox(height: AppDefaults.margin),
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
@@ -93,24 +90,21 @@ class _AppLogoAndHeadline extends StatelessWidget {
       children: [
         SizedBox(
           width: MediaQuery.of(context).size.width * 0.3,
-          child: const AspectRatio(
+          child: AspectRatio(
             aspectRatio: 1 / 1,
-            child: NetworkImageWithLoader(AppImages.roundedLogo),
+            child: Image.asset('assets/images/logo.png'),
           ),
         ),
         Text(
           'Welcome to our',
-          style: Theme.of(context)
-              .textTheme
-              .headlineSmall
-              ?.copyWith(fontWeight: FontWeight.bold),
+          style: TextStyle(fontWeight: FontWeight.bold, color: AppColors.primary),
         ),
         Text(
-          'E-Grocery',
+          'LinguAI',
           style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                fontWeight: FontWeight.bold,
-                color: AppColors.primary,
-              ),
+            fontWeight: FontWeight.bold,
+            color: AppColors.primary,
+          ),
         )
       ],
     );

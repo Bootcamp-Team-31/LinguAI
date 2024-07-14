@@ -1,5 +1,5 @@
 class AppImages {
-  static const roundedLogo = 'https://i.imgur.com/9EsY2t6.png';
+  static const roundedLogo = 'assets/images/logo.png';
 
   /* <---- Homepage banner -----> */
   static const homePageBanner = 'https://i.imgur.com/8hBIsS5.png';

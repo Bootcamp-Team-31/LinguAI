@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import '../constants/constants.dart';
 
 class TitleAndActionButton extends StatelessWidget {
@@ -18,29 +17,26 @@ class TitleAndActionButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: AppDefaults.padding),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        children: [
-          Text(
-            title,
-            style: isHeadline
-                ? Theme.of(context)
-                    .textTheme
-                    .headlineSmall
-                    ?.copyWith(color: Colors.black)
-                : Theme.of(context)
-                    .textTheme
-                    .bodyLarge
-                    ?.copyWith(color: Colors.black),
-          ),
-          TextButton(
-            onPressed: onTap,
-            child: Text(actionLabel ?? 'View All'),
-          ),
-        ],
-      ),
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          title,
+          style: isHeadline
+              ? Theme.of(context)
+              .textTheme
+              .headlineSmall
+              ?.copyWith(color: Colors.white)
+              : Theme.of(context)
+              .textTheme
+              .bodyLarge
+              ?.copyWith(color: Colors.white),
+        ),
+        TextButton(
+          onPressed: onTap,
+          child: Text(actionLabel ?? 'View All', style: TextStyle(color: Colors.black)),
+        ),
+      ],
     );
   }
 }

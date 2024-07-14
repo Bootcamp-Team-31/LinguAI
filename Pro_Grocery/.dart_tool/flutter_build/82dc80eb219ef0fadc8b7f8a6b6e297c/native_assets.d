@@ -1,0 +1,1 @@
+ C:\\Users\\zehra\\Desktop\\AkademiBootcamp\\Pro_Grocery\\.dart_tool\\flutter_build\\82dc80eb219ef0fadc8b7f8a6b6e297c\\native_assets.yaml: 

@@ -14,7 +14,7 @@ class SignUpPageHeader extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.all(AppDefaults.padding),
         child: Text(
-          'Welcome to our\ngrocery shop',
+          'Welcome to our\nLinguAI',
           style: Theme.of(context).textTheme.headlineSmall?.copyWith(
                 fontWeight: FontWeight.bold,
               ),

@@ -6,6 +6,7 @@ import '../../core/routes/app_routes.dart';
 import 'components/onboarding_view.dart';
 import 'data/onboarding_data.dart';
 import 'data/onboarding_model.dart';
+import '../../core/constants/app_colors.dart'; // Renkleri içe aktarmayı unutmayın
 
 class OnboardingPage extends StatefulWidget {
   const OnboardingPage({Key? key}) : super(key: key);
@@ -54,6 +55,7 @@ class _OnboardingPageState extends State<OnboardingPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: AppColors.scaffoldWithBoxBackground, // Arka plan rengini burada ayarlayın
       body: SafeArea(
         child: Column(
           children: [

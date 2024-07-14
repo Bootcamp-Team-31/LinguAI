@@ -16,7 +16,7 @@ class PopularPacks extends StatelessWidget {
       children: [
         TitleAndActionButton(
           title: 'Popular Packs',
-          onTap: () => Navigator.pushNamed(context, AppRoutes.popularItems),
+          onTap: () => Navigator.pushNamed(context, AppRoutes.community),
         ),
         SingleChildScrollView(
           padding: const EdgeInsets.only(left: AppDefaults.padding),

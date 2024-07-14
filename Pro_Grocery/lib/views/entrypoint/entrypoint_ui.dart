@@ -7,7 +7,7 @@ import '../../core/constants/app_colors.dart';
 import '../../core/constants/app_defaults.dart';
 import '../cart/cart_page.dart';
 import '../home/home_page.dart';
-//import '../menu/menu_page.dart';
+// import '../menu/menu_page.dart';
 import '../profile/profile_page.dart';
 import '../save/save_page.dart';
 import 'components/app_navigation_bar.dart';
@@ -26,16 +26,16 @@ class _EntryPointUIState extends State<EntryPointUI> {
 
   /// On labelLarge navigation tap
   void onBottomNavigationTap(int index) {
-    currentIndex = index;
-    setState(() {});
+    setState(() {
+      currentIndex = index;
+    });
   }
 
   /// All the pages
   List<Widget> pages = [
     const HomePage(),
-    //const MenuPage(),
-    const CartPage(isHomePage: true),
     const SavePage(isHomePage: false),
+    const CartPage(isHomePage: true),
     const ProfilePage(),
   ];
 
@@ -62,11 +62,20 @@ class _EntryPointUIState extends State<EntryPointUI> {
         backgroundColor: AppColors.primary,
         child: SvgPicture.asset(AppIcons.cart),
       ),
-      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
+      floatingActionButtonLocation: CustomFloatingActionButtonLocation(), // Use the custom location
       bottomNavigationBar: AppBottomNavigationBar(
         currentIndex: currentIndex,
         onNavTap: onBottomNavigationTap,
       ),
     );
+  }
+}
+
+class CustomFloatingActionButtonLocation extends FloatingActionButtonLocation {
+  @override
+  Offset getOffset(ScaffoldPrelayoutGeometry scaffoldGeometry) {
+    final double fabX = (scaffoldGeometry.scaffoldSize.width - scaffoldGeometry.floatingActionButtonSize.width) / 2;
+    final double fabY = scaffoldGeometry.scaffoldSize.height - scaffoldGeometry.floatingActionButtonSize.height - 80; // Adjust the value '40' to move the button up or down.
+    return Offset(fabX, fabY);
   }
 }
