@@ -39,8 +39,8 @@ class HomePage extends StatelessWidget {
                     "assets/images/logo.png",
                     height: 60,
                   ),
-                  SizedBox(width: 10), // Logo ve metin arasındaki boşluk
-                  Text(
+                  const SizedBox(width: 10), // Logo ve metin arasındaki boşluk
+                  const Text(
                     "LinguAI",
                     style: TextStyle(
                       fontSize: 20,

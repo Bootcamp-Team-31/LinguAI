@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-
-import '../../../core/components/network_image.dart';
 import '../../../core/constants/constants.dart';
 
 class LoginPageHeader extends StatelessWidget {

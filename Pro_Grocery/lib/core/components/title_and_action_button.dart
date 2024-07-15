@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import '../constants/constants.dart';
 
 class TitleAndActionButton extends StatelessWidget {
   const TitleAndActionButton({
@@ -34,7 +33,7 @@ class TitleAndActionButton extends StatelessWidget {
         ),
         TextButton(
           onPressed: onTap,
-          child: Text(actionLabel ?? 'View All', style: TextStyle(color: Colors.black)),
+          child: Text(actionLabel ?? 'View All', style: const TextStyle(color: Colors.black)),
         ),
       ],
     );

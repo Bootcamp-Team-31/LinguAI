@@ -20,7 +20,7 @@ class AdSpace extends StatelessWidget {
               // Eylem butonu tıklandığında yapılacak işlemler
             },
           ),
-          SizedBox(height: 10), // Başlık ile görsel arasındaki boşluk
+          const SizedBox(height: 10), // Başlık ile görsel arasındaki boşluk
           SizedBox(
             width: MediaQuery.of(context).size.width,
             child: AspectRatio(

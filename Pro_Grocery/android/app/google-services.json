@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "486323380246",
+    "project_id": "bootcampdatabase-8d011",
+    "storage_bucket": "bootcampdatabase-8d011.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:486323380246:android:56c38632f54b181f4c5537",
+        "android_client_info": {
+          "package_name": "com.example.flutter_upgrde_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBv5xqT7Sa8TNJr28CMo-2_ohglc-6yPZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

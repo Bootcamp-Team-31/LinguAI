@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-
-import '../../../core/constants/app_colors.dart';
 import '../../../core/constants/app_defaults.dart';
 import '../../../core/routes/app_routes.dart';
 
@@ -13,7 +11,7 @@ class IntroPageBodyArea extends StatelessWidget {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Container(
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           image: DecorationImage(
             image: AssetImage('assets/images/OIG7.jpeg'), // Arka plan resminin yolu
             fit: BoxFit.cover, // Resmi container'a sığdır

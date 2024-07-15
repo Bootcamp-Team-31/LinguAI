@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-
-import '../../core/components/network_image.dart';
 import '../../core/constants/constants.dart';
 import '../../core/routes/app_routes.dart';
 
@@ -10,7 +8,7 @@ class LoginOrSignUpPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
       body: Column(
         children: [
           Spacer(flex: 2),
@@ -39,16 +37,16 @@ class _Footer extends StatelessWidget {
             padding: const EdgeInsets.all(AppDefaults.padding),
             child: ElevatedButton(
               onPressed: () => Navigator.pushNamed(context, AppRoutes.login),
-              child: Text('Login With Email'),
+              child: const Text('Login With Email'),
             ),
           ),
         ),
-        SizedBox(height: AppDefaults.margin),
-        Text(
+        const SizedBox(height: AppDefaults.margin),
+        const Text(
           'OR',
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
-        SizedBox(height: AppDefaults.margin),
+        const SizedBox(height: AppDefaults.margin),
         Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
@@ -95,7 +93,7 @@ class _AppLogoAndHeadline extends StatelessWidget {
             child: Image.asset('assets/images/logo.png'),
           ),
         ),
-        Text(
+        const Text(
           'Welcome to our',
           style: TextStyle(fontWeight: FontWeight.bold, color: AppColors.primary),
         ),

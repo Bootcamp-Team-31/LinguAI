@@ -6,7 +6,6 @@ import '../../core/routes/app_routes.dart';
 import 'components/onboarding_view.dart';
 import 'data/onboarding_data.dart';
 import 'data/onboarding_model.dart';
-import '../../core/constants/app_colors.dart'; // Renkleri içe aktarmayı unutmayın
 
 class OnboardingPage extends StatefulWidget {
   const OnboardingPage({Key? key}) : super(key: key);
