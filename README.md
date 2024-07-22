@@ -107,7 +107,28 @@ These were app design, Firebase and AI. We created the Firebase database design,
   - We have decided that we should be working in duos and constantly share our progress with each other.
   - Daily meetings are decided to be held at night.
   - Personal task sharing is encouraged if the member sees fit.
- 
+
+# Sprint 2
+
+- **Estimated points to be assigned**:
+- 100 Points
+
+- **Point Reasoning**:
+- We decided that the sprint should hold 100 points worth of tasks.
+  
+
+- **Daily Scrum**:
+- Daily Scrum meetings are held at night on Whatsapp due to time restrictions of the team. We have saved and collected meeting notes share the progress we made mostly and recently. 
+
+ - **Sprint Board Update**
+
+ - 
+![image](https://github.com/user-attachments/assets/c88a11c3-dcfc-4b38-9580-e4bf7e4621fc)
+
+
+ - **Product Situation**
+
+ - **Sprint Review**
 ---
 
 ## Product Backlog URL
