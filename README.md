@@ -104,8 +104,11 @@ These were app design, Firebase and AI. We created the Firebase database design,
 
 
 <h2>Sprint Retrospective:
+ 
   - We have decided that we should be working in duos and constantly share our progress with each other.
+ 
   - Daily meetings are decided to be held at night.
+  
   - Personal task sharing is encouraged if the member sees fit.
 
 # Sprint 2
@@ -118,7 +121,17 @@ These were app design, Firebase and AI. We created the Firebase database design,
   
 
 - **Daily Scrum**:
-- Daily Scrum meetings are held at night on Whatsapp due to time restrictions of the team. We have saved and collected meeting notes share the progress we made mostly and recently. 
+- Daily Scrum meetings are held on Whatsapp due to time restrictions of the team. We have saved and collected meeting notes share the progress we made mostly and recently. 
+
+We tried to be momentary in letting each other know about the updates all the time as much as possible. 
+
+![imsage](https://github.com/user-attachments/assets/05743034-8a3a-4157-b038-c56cb7afdf88)
+![imaga](https://github.com/user-attachments/assets/ebc62d72-b08e-47d9-b7c4-74449b915739)
+![imagge](https://github.com/user-attachments/assets/14fdbd2b-138a-467a-9a70-ceeb9d069f22)
+![imagess](https://github.com/user-attachments/assets/18edb230-3210-478f-a25e-b10a5115c3f1)
+![imagef](https://github.com/user-attachments/assets/7e714ed8-7181-4012-8b1b-01e2b92cf0bc)
+![imaggge](https://github.com/user-attachments/assets/6c866d61-d47d-4ca4-874c-3183a9cbb75d)
+
 
  - **Sprint Board Update**
 
