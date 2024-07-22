@@ -159,6 +159,7 @@ We tried to be momentary in letting each other know about the updates all the ti
 ![Sign_up](https://github.com/user-attachments/assets/60ac228b-7770-4d1d-abdb-74637deef05c)![Log_in](https://github.com/user-attachments/assets/1c3762ca-0cc8-46e8-8ae7-e2a388ce9735)
 
 ![Validation](https://github.com/user-attachments/assets/14e58e7c-0c84-496d-84a8-e9534507d098)
+![WhatsApp Görsel 2024-07-22 saat 21 38 06_4c34ef60](https://github.com/user-attachments/assets/3ec66d94-a622-400b-8c80-a00ea16c4a72)
 
  
 ## Product Backlog URL
