@@ -130,16 +130,18 @@ We tried to be momentary in letting each other know about the updates all the ti
 ![imagge](https://github.com/user-attachments/assets/14fdbd2b-138a-467a-9a70-ceeb9d069f22)
 ![imagess](https://github.com/user-attachments/assets/18edb230-3210-478f-a25e-b10a5115c3f1)
 ![imagef](https://github.com/user-attachments/assets/7e714ed8-7181-4012-8b1b-01e2b92cf0bc)
-![imaggge](https://github.com/user-attachments/assets/6c866d61-d47d-4ca4-874c-3183a9cbb75d)
+
 
 
  - **Sprint Board Update**
 
  - 
-![image](https://github.com/user-attachments/assets/c88a11c3-dcfc-4b38-9580-e4bf7e4621fc)
 
-![imagge](https://github.com/user-attachments/assets/479bfb01-44c1-4978-aaf6-18c651c16d97)
+![image](https://github.com/user-attachments/assets/b05f4e13-4013-4740-b952-8c8aa8af1838)
 
+![imagge](https://github.com/user-attachments/assets/c391d939-035b-4945-8122-fe85f8abf7d7)
+
+ 
  - **Product Situation**
 
  - **Sprint Review**
