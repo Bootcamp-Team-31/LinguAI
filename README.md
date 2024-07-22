@@ -150,6 +150,10 @@ We tried to be momentary in letting each other know about the updates all the ti
 --Dictionary page for the users is also undergoing some design changes and code working. 
 
 --We discovered that written communication through messaging apps let us breathe and keep the project in sync with our daily lives during heavy schedules.  
+![Sign_up](https://github.com/user-attachments/assets/60ac228b-7770-4d1d-abdb-74637deef05c)![Log_in](https://github.com/user-attachments/assets/1c3762ca-0cc8-46e8-8ae7-e2a388ce9735)
+
+![Validation](https://github.com/user-attachments/assets/14e58e7c-0c84-496d-84a8-e9534507d098)
+
  
 ## Product Backlog URL
 
