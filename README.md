@@ -125,12 +125,17 @@ These were app design, Firebase and AI. We created the Firebase database design,
  - 
 ![image](https://github.com/user-attachments/assets/c88a11c3-dcfc-4b38-9580-e4bf7e4621fc)
 
+![imagge](https://github.com/user-attachments/assets/479bfb01-44c1-4978-aaf6-18c651c16d97)
 
  - **Product Situation**
 
  - **Sprint Review**
----
+---We have been gathering information and trying out different AI models in theory and practice too. We have decided that most of the effort must be put in for AI integration to the project as we have successfully completed Firebase integration.
 
+--Dictionary page for the users is also undergoing some design changes and code working. 
+
+--We discovered that written communication through messaging apps let us breathe and keep the project in sync with our daily lives during heavy schedules.  
+ 
 ## Product Backlog URL
 
 Flutter Team 31 
