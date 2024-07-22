@@ -121,6 +121,7 @@ These were app design, Firebase and AI. We created the Firebase database design,
   
 
 - **Daily Scrum**:
+  
 - Daily Scrum meetings are held on Whatsapp due to time restrictions of the team. We have saved and collected meeting notes share the progress we made mostly and recently. 
 
 We tried to be momentary in letting each other know about the updates all the time as much as possible. 
@@ -135,7 +136,7 @@ We tried to be momentary in letting each other know about the updates all the ti
 
  - **Sprint Board Update**
 
- - 
+  
 
 ![image](https://github.com/user-attachments/assets/b05f4e13-4013-4740-b952-8c8aa8af1838)
 
@@ -145,7 +146,7 @@ We tried to be momentary in letting each other know about the updates all the ti
 
  - **Sprint Review**
 
- - 
+   
   -- We have been gathering information and trying out different AI models in theory and practice too. We have decided that most of the effort must be put in for AI integration to the project as we have successfully completed Firebase integration.
 
 --Dictionary page for the users is also undergoing some design changes and code working. 
