@@ -1,5 +1,7 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:grocery/views/home/home_page.dart'; // HomePage import
 
 import '../../../core/constants/constants.dart';
 import '../../../core/routes/app_routes.dart';
@@ -8,9 +10,7 @@ import '../../../core/utils/validators.dart';
 import 'login_button.dart';
 
 class LoginPageForm extends StatefulWidget {
-  const LoginPageForm({
-    Key? key,
-  }) : super(key: key);
+  const LoginPageForm({Key? key}) : super(key: key);
 
   @override
   State<LoginPageForm> createState() => _LoginPageFormState();
@@ -18,18 +18,55 @@ class LoginPageForm extends StatefulWidget {
 
 class _LoginPageFormState extends State<LoginPageForm> {
   final _key = GlobalKey<FormState>();
+  final emailController = TextEditingController();
+  final passwordController = TextEditingController();
 
   bool isPasswordShown = false;
-  onPassShowClicked() {
-    isPasswordShown = !isPasswordShown;
-    setState(() {});
+
+  void onLogin() async {
+    if (_key.currentState!.validate()) {
+      try {
+        await FirebaseAuth.instance.signInWithEmailAndPassword(
+          email: emailController.text,
+          password: passwordController.text,
+        );
+        Navigator.of(context).pushReplacement(
+          MaterialPageRoute(builder: (context) => const HomePage()), // HomePage ile yönlendirme
+        );
+      } catch (e) {
+        String errorMessage;
+        if (e is FirebaseAuthException) {
+          switch (e.code) {
+            case 'invalid-email':
+              errorMessage = 'The email address is badly formatted.';
+              break;
+            case 'user-disabled':
+              errorMessage = 'The user corresponding to the given email has been disabled.';
+              break;
+            case 'user-not-found':
+              errorMessage = 'There is no user corresponding to the given email.';
+              break;
+            case 'wrong-password':
+              errorMessage = 'The password is invalid for the given email.';
+              break;
+            default:
+              errorMessage = 'An undefined Error happened. Code: ${e.code}';
+          }
+        } else {
+          errorMessage = 'An error occurred. Please try again.';
+        }
+        ScaffoldMessenger.of(context).showSnackBar(
+          SnackBar(content: Text(errorMessage)),
+        );
+        print('Error: ${e.toString()}'); // Hata mesajını konsola yazdırın
+      }
+    }
   }
 
-  onLogin() {
-    final bool isFormOkay = _key.currentState?.validate() ?? false;
-    if (isFormOkay) {
-      Navigator.pushNamed(context, AppRoutes.entryPoint);
-    }
+  void onPassShowClicked() {
+    setState(() {
+      isPasswordShown = !isPasswordShown;
+    });
   }
 
   @override
@@ -45,17 +82,16 @@ class _LoginPageFormState extends State<LoginPageForm> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              // Phone Field
-              const Text("Phone Number"),
+              const Text("Email"),
               const SizedBox(height: 8),
               TextFormField(
-                keyboardType: TextInputType.number,
-                validator: Validators.requiredWithFieldName('Phone'),
+                keyboardType: TextInputType.emailAddress,
+                validator: Validators.requiredWithFieldName('Email'),
                 textInputAction: TextInputAction.next,
+                controller: emailController,
               ),
               const SizedBox(height: AppDefaults.padding),
 
-              // Password Field
               const Text("Password"),
               const SizedBox(height: 8),
               TextFormField(
@@ -63,6 +99,7 @@ class _LoginPageFormState extends State<LoginPageForm> {
                 onFieldSubmitted: (v) => onLogin(),
                 textInputAction: TextInputAction.done,
                 obscureText: !isPasswordShown,
+                controller: passwordController,
                 decoration: InputDecoration(
                   suffixIcon: Material(
                     color: Colors.transparent,
@@ -77,7 +114,6 @@ class _LoginPageFormState extends State<LoginPageForm> {
                 ),
               ),
 
-              // Forget Password labelLarge
               Align(
                 alignment: Alignment.centerRight,
                 child: TextButton(
@@ -88,7 +124,6 @@ class _LoginPageFormState extends State<LoginPageForm> {
                 ),
               ),
 
-              // Login labelLarge
               LoginButton(onPressed: onLogin),
             ],
           ),

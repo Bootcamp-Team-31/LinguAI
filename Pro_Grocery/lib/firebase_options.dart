@@ -41,48 +41,49 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyA7bxEw9IoXDifjt5PXPTIE8r6Y2CJsZtw',
-    appId: '1:486323380246:web:3b2e286ec7bcaae54c5537',
-    messagingSenderId: '486323380246',
-    projectId: 'bootcampdatabase-8d011',
-    authDomain: 'bootcampdatabase-8d011.firebaseapp.com',
-    storageBucket: 'bootcampdatabase-8d011.appspot.com',
-    measurementId: 'G-MCKTBL5GN4',
+    apiKey: 'AIzaSyCfXY4LidEbBkwvA5lYM8jFBH08KxRC69c',
+    appId: '1:764070526715:web:7d91237017d9122a49fa5e',
+    messagingSenderId: '764070526715',
+    projectId: 'bootcampdatabase-9b4d5',
+    authDomain: 'bootcampdatabase-9b4d5.firebaseapp.com',
+    storageBucket: 'bootcampdatabase-9b4d5.appspot.com',
+    measurementId: 'G-6N34LNKZFB',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyBv5xqT7Sa8TNJr28CMo-2_ohglc-6yPZE',
-    appId: '1:486323380246:android:56c38632f54b181f4c5537',
-    messagingSenderId: '486323380246',
-    projectId: 'bootcampdatabase-8d011',
-    storageBucket: 'bootcampdatabase-8d011.appspot.com',
+    apiKey: 'AIzaSyAt1cGdIhOkX-Fkd83CadmFtHgm6mYgFYA',
+    appId: '1:764070526715:android:2863a09e464d24ba49fa5e',
+    messagingSenderId: '764070526715',
+    projectId: 'bootcampdatabase-9b4d5',
+    storageBucket: 'bootcampdatabase-9b4d5.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyCQ-Un5D4OJ1xOxkQTSirRIe9j8K3ijXjI',
-    appId: '1:486323380246:ios:32f2ee655e27b5024c5537',
-    messagingSenderId: '486323380246',
-    projectId: 'bootcampdatabase-8d011',
-    storageBucket: 'bootcampdatabase-8d011.appspot.com',
+    apiKey: 'AIzaSyCDHMOF2Csy9uv3HYv5ooO7xrrob_m-skY',
+    appId: '1:764070526715:ios:24c45f72f409d24a49fa5e',
+    messagingSenderId: '764070526715',
+    projectId: 'bootcampdatabase-9b4d5',
+    storageBucket: 'bootcampdatabase-9b4d5.appspot.com',
     iosBundleId: 'com.example.flutterUpgrdeApp',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyCQ-Un5D4OJ1xOxkQTSirRIe9j8K3ijXjI',
-    appId: '1:486323380246:ios:32f2ee655e27b5024c5537',
-    messagingSenderId: '486323380246',
-    projectId: 'bootcampdatabase-8d011',
-    storageBucket: 'bootcampdatabase-8d011.appspot.com',
+    apiKey: 'AIzaSyCDHMOF2Csy9uv3HYv5ooO7xrrob_m-skY',
+    appId: '1:764070526715:ios:24c45f72f409d24a49fa5e',
+    messagingSenderId: '764070526715',
+    projectId: 'bootcampdatabase-9b4d5',
+    storageBucket: 'bootcampdatabase-9b4d5.appspot.com',
     iosBundleId: 'com.example.flutterUpgrdeApp',
   );
 
   static const FirebaseOptions windows = FirebaseOptions(
-    apiKey: 'AIzaSyA7bxEw9IoXDifjt5PXPTIE8r6Y2CJsZtw',
-    appId: '1:486323380246:web:8d49ffc29c33e1454c5537',
-    messagingSenderId: '486323380246',
-    projectId: 'bootcampdatabase-8d011',
-    authDomain: 'bootcampdatabase-8d011.firebaseapp.com',
-    storageBucket: 'bootcampdatabase-8d011.appspot.com',
-    measurementId: 'G-7Y3DWLTDTD',
+    apiKey: 'AIzaSyCfXY4LidEbBkwvA5lYM8jFBH08KxRC69c',
+    appId: '1:764070526715:web:beb59e87aff2f7de49fa5e',
+    messagingSenderId: '764070526715',
+    projectId: 'bootcampdatabase-9b4d5',
+    authDomain: 'bootcampdatabase-9b4d5.firebaseapp.com',
+    storageBucket: 'bootcampdatabase-9b4d5.appspot.com',
+    measurementId: 'G-XNHG1KZNPL',
   );
+
 }

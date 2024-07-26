@@ -6,11 +6,13 @@ import 'package:grocery/core/constants/app_icons.dart';
 import '../../core/constants/app_colors.dart';
 import '../../core/constants/app_defaults.dart';
 import '../cart/cart_page.dart';
+import '../cart/write_data_page.dart';
 import '../home/home_page.dart';
 // import '../menu/menu_page.dart';
 import '../profile/profile_page.dart';
 import '../save/save_page.dart';
 import 'components/app_navigation_bar.dart';
+
 
 /// This page will contain all the bottom navigation tabs
 class EntryPointUI extends StatefulWidget {
@@ -35,7 +37,7 @@ class _EntryPointUIState extends State<EntryPointUI> {
   List<Widget> pages = [
     const HomePage(),
     const SavePage(isHomePage: false),
-    const CartPage(isHomePage: true),
+    const WriteDataPage(), // Replace CartPage with WriteDataPage
     const ProfilePage(),
   ];
 
@@ -57,7 +59,7 @@ class _EntryPointUIState extends State<EntryPointUI> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          onBottomNavigationTap(2);
+          onBottomNavigationTap(2); // This will now open WriteDataPage
         },
         backgroundColor: AppColors.primary,
         child: SvgPicture.asset(AppIcons.cart),
