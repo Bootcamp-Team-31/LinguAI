@@ -104,12 +104,64 @@ These were app design, Firebase and AI. We created the Firebase database design,
 
 
 <h2>Sprint Retrospective:
-  - We have decided that we should be working in duos and constantly share our progress with each other.
-  - Daily meetings are decided to be held at night.
-  - Personal task sharing is encouraged if the member sees fit.
  
----
+  - We have decided that we should be working in duos and constantly share our progress with each other.
+ 
+  - Daily meetings are decided to be held at night.
+  
+  - Personal task sharing is encouraged if the member sees fit.
 
+# Sprint 2
+
+- **Estimated points to be assigned**:
+- 100 Points
+
+- **Point Reasoning**:
+- We decided that the sprint should hold 100 points worth of tasks.
+  
+
+- **Daily Scrum**:
+  
+- Daily Scrum meetings are held on Whatsapp due to time restrictions of the team. We have saved and collected meeting notes share the progress we made mostly and recently. 
+
+We tried to be momentary in letting each other know about the updates all the time as much as possible. 
+
+![imsage](https://github.com/user-attachments/assets/05743034-8a3a-4157-b038-c56cb7afdf88)
+![imaga](https://github.com/user-attachments/assets/ebc62d72-b08e-47d9-b7c4-74449b915739)
+
+![imagess](https://github.com/user-attachments/assets/18edb230-3210-478f-a25e-b10a5115c3f1)
+![imagef](https://github.com/user-attachments/assets/7e714ed8-7181-4012-8b1b-01e2b92cf0bc)
+
+
+
+ - **Sprint Board Update**
+
+  
+
+![image](https://github.com/user-attachments/assets/b05f4e13-4013-4740-b952-8c8aa8af1838)
+
+![imagge](https://github.com/user-attachments/assets/c391d939-035b-4945-8122-fe85f8abf7d7)
+
+
+
+ - **Sprint Review**
+
+   
+  -- We have been gathering information and trying out different AI models in theory and practice too. We have decided that most of the effort must be put in for AI integration to the project as we have successfully completed Firebase integration.
+
+--Dictionary page for the users is also undergoing some design changes and code working. 
+
+--We discovered that written communication through messaging apps let us breathe and keep the project in sync with our daily lives during heavy schedules.  
+
+**Product Situation**
+
+
+![Sign_up](https://github.com/user-attachments/assets/60ac228b-7770-4d1d-abdb-74637deef05c)![Log_in](https://github.com/user-attachments/assets/1c3762ca-0cc8-46e8-8ae7-e2a388ce9735)
+
+![Validation](https://github.com/user-attachments/assets/14e58e7c-0c84-496d-84a8-e9534507d098)
+![WhatsApp Görsel 2024-07-22 saat 21 38 06_4c34ef60](https://github.com/user-attachments/assets/3ec66d94-a622-400b-8c80-a00ea16c4a72)
+
+ 
 ## Product Backlog URL
 
 Flutter Team 31 
