@@ -58,7 +58,6 @@ class _LoginPageFormState extends State<LoginPageForm> {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(content: Text(errorMessage)),
         );
-        print('Error: ${e.toString()}'); // Hata mesajını konsola yazdırın
       }
     }
   }
