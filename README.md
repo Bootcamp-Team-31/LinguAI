@@ -162,10 +162,14 @@ We tried to be momentary in letting each other know about the updates all the ti
 ![WhatsApp Görsel 2024-07-22 saat 21 38 06_4c34ef60](https://github.com/user-attachments/assets/3ec66d94-a622-400b-8c80-a00ea16c4a72)
 
 
+
+
 Much has been planned and worked on but in the end we could not deliver what we hoped for. All features worked well alone yet not together. 
 We were not able to produce what we planned for but we wanted to add the AI and Word Games we worked on just to show the truth and the process.
 
 Product video only shows what works and we also add these parts of the app as they once worked and can be fixed later on. 
+
+
 
 
 https://github.com/user-attachments/assets/b33b54fd-f3d9-4497-9370-fa6b4ec0ef6a
